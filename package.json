@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "1.安裝套件": "npm install",
+    "2.跑專案": "vue-cli-service serve",
+    "3.打包上線": "vue-cli-service build",
+    "檢查並修復源檔案": "vue-cli-service lint"
   },
   "dependencies": {
+    "bootstrap": "^5.2.0",
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1"
@@ -15,6 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@fortawesome/fontawesome-free": "^6.1.2",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",

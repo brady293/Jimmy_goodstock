@@ -1,0 +1,9 @@
+.hyperlink{
+    text-decoration: none;
+    color: $main-text-color;
+    transition: all .3s ease;
+    &:hover{
+        color: #00f;
+        cursor: pointer;
+    }
+}
