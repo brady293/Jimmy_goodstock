@@ -87,18 +87,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.btn-primary {
-  margin: 10px;
-  background-color: #ccc;
-}
-.container {
-  // width: 800px;
-  .row {
-    .card {
-      margin: 25px;
-    }
-  }
-}
-</style>

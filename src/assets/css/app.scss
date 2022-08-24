@@ -1,3 +1,4 @@
+// 放所有scss地方
 //base
 @import 'base/text';
 
@@ -5,11 +6,11 @@
 @import 'utils/variables';
 
 //components
-
+@import 'components/carouseBanner';
 //layout
 
 //pages
-
+@import 'pages/home'
 //theme
 
 //vendors
