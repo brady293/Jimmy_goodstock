@@ -1,17 +1,20 @@
 // 放所有scss地方
 //base
-@import 'base/text';
+@import "base/text";
+@import "base/basic";
 
 //utils
-@import 'utils/variables';
+@import "utils/variables";
 
 //components
-@import 'components/carouseBanner';
+@import "components/carouseBanner";
+@import "components/header";
+@import "components/footer";
+@import "components/AboutJimmy";
 //layout
-
+@import "layout/rwd";
 //pages
-@import 'pages/home'
-//theme
+@import "pages/home"; //theme
 
 //vendors
 

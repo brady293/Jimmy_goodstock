@@ -1,0 +1,44 @@
+.navbar {
+  .container-fluid {
+    background-color: rgba(204, 222, 121, 0.549);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 10px;
+    width: 100%;
+  }
+  // 圖文
+  a {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    h2 {
+      padding-left: 20px;
+      font-size: 15px;
+    }
+  }
+  //   漢堡
+  .ham {
+    .fa-coins {
+      font-size: 30px;
+      color: darken(green, 10%);
+    }
+    .hampic {
+      border: none;
+      background-color: transparent;
+    }
+    nav {
+      background-color: rgb(204, 222, 121);
+      width: 100%;
+      position: fixed;
+      top: 60px;
+      left: 0;
+      z-index: 1;
+      .slidemenu_item {
+        text-align: center;
+        padding: 5px;
+        list-style: none;
+      }
+    }
+  }
+}
